@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color:#dd5512;
+    width: 100%;
+    height: 5px;
+    margin-top: 0;
+}
+.logo-1{
+    width: 350px;
+    height: 130px;
+    margin-left: 5%;
+}
+li{
+    display: inline;
+    font-size: 20px;
+    padding-inline: 10px;
+    color: #dd5512;
+}
+ul{
+    position: absolute;
+    top: 60px;
+    left: 800px;
+}
+.liss a:hover{
+    color: #dd5512;
+}
+.titulo1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+.texto_1{
+    margin-right: 10px;
+    color: aliceblue;
+    position: relative;
+    max-width: 35%;
+    padding: 40px;
+    font-size: 25px;
+}
+.texto_1 h1{
+    color: #dd5512;
+    white-space: nowrap;
+    margin: 10px 0 30px 0;
+}
+.img-1{
+    max-width: 100px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.title{
+    text-align: center;
+    margin: 0 10px;
+    max-width: 30%;
+}
+.title img{
+    width: 300px;
+    height: 270px;
+    display: block;
+    margin: o auto;
+}
+.title h2{
+    margin-top: 25px;
+    font-size: 26px;
+    color: #969628;
+}
+.title p{
+    background-color: lightcoral;
+    margin-top: 25px;
+    color: #dd5512;
+    font-size: 20px;
+    border: 1px #dd5512;
+    padding: 10px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+}
+.n{
+    background-color: rgb(53, 53, 53);
+}
+.title .p1{
+    color:#dd5512;
+}
+.title .p2{
+    color: aliceblue;
+}
+
+
+.mapa{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+.mapa-1{
+    text-align: center;
+    margin: 0 10px;
+}
+.intro{
+    margin-top: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.reser{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #dd5512
+    ;
+}
+h1, h2{
+    text-align: center;
+    color: #dd5512;
+}
+.reserva-link{
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: rgb(39, 41, 41);
+    color:#acac13;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: backgraund-color 0.3s;
+    font-size: 25px;
+}
+.reserva-link:hover{
+    background-color: rgb(54, 58, 57);
+}
+#formulario-reserva{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#343130;
+    border: 1px solid #dd5512;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #dd5512;
+}
+#formulario-reserva, label{
+    color:#dd5512;
+}
+label, input{
+    display: block;
+    width: 100%;
+}
+input{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: backgraund-color 0.3s;
+}
+input[type="submit"]:hover{
+    background-color: #218838;
+}
+.exit{
+    background-color: #343130;
+    margin: 30px;
+    width: 700px;
+    height: 400px;
+    margin-left: 20%;
+    
+}
+.exit .r{
+    font-size: 80px;
+    color: #28a745;
+}
+.exit .e{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+   
+
+
+
+
+

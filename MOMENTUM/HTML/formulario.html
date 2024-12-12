@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="linea">-
+        <img class="logo-1" src="../IMG/logotipo.avif" alt="#">
+    </div>
+    <header>
+        <nav class="list">
+            <ul class="liss">
+                <li><a href="index.html">INICIO</a></li>
+                <LI><a href="menu.html">MENU</a></li>
+                <li><a href="ubicacion.html">UBICACION</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="formulario-reserva"></a>
+    <div id="formulario-reserva">
+        <h2>Formulario de reserva</h2>
+        <form action="exitosa.html">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="fecha">Fecha de reserva</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora de reserva</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="producto">PRODUCTO</label>
+            <select name="producto" id="producto">
+                <option value="SELECCIONE PRODUCTO">SELECCIONE PRODUCTO</option>
+                <option value="GRAN BURGER">GRAN BURGER</option>
+                <option value="QUESO BURGER">QUESO BURGER</option>
+                <option value="BBQ BURGUER">BBQ BURGUER</option>
+                <option value="PIZZA DELA MAMA">PIZZA DE"LA MAMA</option>
+                <option value="PIZZA DL PAPA">PIZZA DL" PAPA</option>
+                <option value="PIZZA BURGER">PIZZA BURGER</option>
+                <option value="DONKEY">DONKEY</option>
+                <option value="BIG BURRITO">BIG BURRITO</option>
+                <option value="MEGA HIPER BURRITO">MEGA HIPER BURRITO</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Enviar reserva</button>
+        </form>
+    </div>
+</body>
+
+</html>
